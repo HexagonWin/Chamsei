@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>my site</title>
+<script type="text/javascript">
+function dosearch() {
+var sf=document.searchform;
+var submitto = "result.html?q=" + escape(sf.searchterms.value);
+window.location.href = submitto;
+return false;
+}
+</script>
+</head>
+
+<body>
+<form name="searchform" onSubmit="return dosearch();">
+
+<center><table border="1" width="70%">
+<tr>
+ <td>
+<p><a href="/katchi/"><IMG SRC="katchi.png" width=136 height=46></a><input type="text" placeholder="Search the clouds ..." name="searchterms">
+
+<input type="submit" name="SearchSubmit" value="Katchi! Search"></p>
+</form>
+<p><a href="/katchi/">Katchi Main</a> <a href="/">Chamsei Main</a>
+</div>
+</td>
+</tr>
+</table></center>
+
+<center><table border="0" width="70%">
+<tr>
+ <td>
+ 	<script async src="https://cse.google.com/cse.js?cx=9e725fbecbf4e8107"></script>
+<div class="gcse-searchresults-only"></div>
+ </td>
+</tr>
+</table></center>
+
+	
+
+</body>
+</html>

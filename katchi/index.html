@@ -1,0 +1,59 @@
+
+<HTML>
+<HEAD>
+<script type="text/javascript">
+function dosearch() {
+var sf=document.searchform;
+var submitto = "result.html?q=" + escape(sf.searchterms.value);
+window.location.href = submitto;
+return false;
+}
+</script>
+</HEAD>
+
+<BODY>
+
+<center><table border="1" width="70%">
+<tr>
+ <td>
+<p><a href="/katchi/"><IMG SRC="katchi.png" width=136 height=46></a><input type="text" placeholder="Search the clouds ..." name="searchterms">
+
+<input type="submit" name="SearchSubmit" value="Katchi! Search"></p>
+</form>
+<p><a href="/katchi/">Katchi Main</a> <a href="/">Chamsei Main</a>
+</div>
+</td>
+</tr>
+</table></center>
+
+<CENTER><IMG SRC="katchi.png" width=351 height=113>
+
+<table border=0 cellspacing=0 cellpadding=5 width="70%">
+<tr><td bgcolor="#EEEEEE">
+
+<center>
+<BR>Cloud storages are the cloud of data</BR>
+</center>
+<form name="searchform" onSubmit="return dosearch();">
+<center>
+<input type="text" placeholder="Search the clouds ..." name="searchterms">
+
+<input type="submit" name="SearchSubmit" value="Katchi! Search">
+</center>
+</form>
+</center>
+<center>
+	<I>Katchi is Powered by Google</I>
+</center>
+</td>
+</tr>
+</table>
+<center>
+<A href="#about"><H2>About Katchi</H2></A>
+<A href="https://mintserver.kr">Visit Mintserver (Legacy unsupported)</A> <A href="/">Try Chamsei</A>
+<p>_________________________________________________________</p>
+<CENTER><FONT SIZE=-1>Copyright &copy;2014-20 BaicKai Network Systems</FONT></CENTER>
+
+</BODY>
+
+</HTML>

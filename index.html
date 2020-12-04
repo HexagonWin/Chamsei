@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<script type="text/javascript">
+function dosearch() {
+var sf=document.searchform;
+var submitto = sf.sengines.options[sf.sengines.selectedIndex].value + escape(sf.searchterms.value);
+window.location.href = submitto;
+return false;
+}
+</script>
+</HEAD>
+
+<BODY>
+<CENTER><IMG SRC="chamsei.png" width=351 height=113>
+
+<table border=0 cellspacing=0 cellpadding=5 width="70%">
+<tr><td bgcolor="#EEEEEE">
+
+<center>
+<BR>The Wonder of the World Wide Web</BR>
+</center>
+<form name="searchform" onSubmit="return dosearch();">
+<center>
+<input type="text" placeholder="Search the World Wide Web ..." size="40" name="searchterms">
+</center>
+<center>
+
+<select name="sengines">
+<option value="http://duckduckgo.com/?q=" selected>DuckDuckGo</option>
+<option value="http://www.ecosia.org/search?q=">Ecosia</option>
+<option value="http://www.dogpile.com/serp?q=">Dogpile</option>
+<option value="http://search.yahoo.com/search?p=">Yahoo!</option>
+<option value="http://skywiki.tk/search/">SKYwiki</option>
+<option value="index.html">Archive VEGA Search [W.I.P.]</option>
+
+</select>
+<input type="submit" name="SearchSubmit" value="Internet Search!">
+</center>
+</form>
+</center>
+<center>
+	<I>Chamsei is Powered by multiple Search Engines</I>
+</center>
+</td>
+</tr>
+</table>
+<center>
+<A href="#about"><H2>About Chamsei</H2></A>
+<A href="https://mintserver.kr">Visit MintServer (Legacy Unsupported)</A> <A href="/katchi/">Visit Katchi Portal</A>
+<p>_________________________________________________________</p>
+<CENTER><FONT SIZE=-1>Copyright &copy;2014-20 BaicKai Network Systems</FONT></CENTER>
+
+</BODY>
+
+</HTML>
